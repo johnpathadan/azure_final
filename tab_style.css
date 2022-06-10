@@ -1,0 +1,149 @@
+@media screen and (max-width: 1080px) {
+    header {
+        box-sizing: border-box;
+    }
+    header>.navigation>.content-right>.mobile-invisible {
+        display: none;
+    }
+    header .navigation {
+        margin-right: 50px;
+    }
+    header .icon-visible {
+        color: rgb(104, 102, 102);
+        margin-right: 15px;
+        width: 15px;
+        visibility: visible;
+    }
+    .covid {
+        /* height: 60px; */
+        font-size: 12px;
+        font-weight: bolder;
+    }
+    .showcase {
+        background-image: url('images/aquamarine.webp');
+    }
+    .showcase-text {
+        text-align: center;
+        padding-left: 12px;
+        padding-right: 18px;
+        word-spacing: 3.0;
+    }
+    /* more info starts */
+    .more-info {
+        margin: 40px 15px;
+    }
+    .more-info h2 {
+        margin-top: 25px;
+    }
+    .more-info-divs .more-info-div-left {
+        height: 450px;
+    }
+    .more-info-divs .more-info-div-right {
+        height: 450px;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .more-info-div-right-top,
+    .more-info-div-right-bottom {
+        height: 250px;
+    }
+    /* more info ends */
+    /* discover starts */
+    #item1-text,
+    #item2-text,
+    #item4-text,
+    #item6-text {
+        margin-top: -20px;
+    }
+    /* discover ends */
+    * customer feedback starts */ .customer-feedback h2 {
+        margin-bottom: 40px;
+    }
+    .customer-feedback .brand-logos .mobile-none {
+        display: none;
+    }
+    .customer-feedback .brand-logos {
+        margin-top: -25px;
+    }
+    .customer-feedback .nba-feedback {
+        margin-top: -75px;
+        height: 500px;
+        width: 100vw;
+    }
+    .customer-feedback .nba-feedback .feedback-text {
+        background-color: antiquewhite;
+        color: rgb(63, 63, 63);
+        font-weight: bolder;
+        width: 100vw;
+        left: 0;
+        top: 375px;
+    }
+    .customer-feedback .nba-feedback .feedback-text #feedback-text-info {
+        font-size: 13px !important;
+    }
+    .customer-feedback .nba-feedback .feedback-text #feedback-text-link {
+        color: black;
+        font-size: 12px;
+    }
+    /* customer feedback ends */
+    .feature-image {
+        display: none;
+    }
+    .features .feature-columns .feature-options {
+        width: 20vw
+    }
+    .feature-options>p {
+        font-size: 10px;
+    }
+    /* migration starts */
+    .migration {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    .migration .migration-left #migration-image {
+        width: 350px;
+        margin-right: 25px;
+    }
+    /* migration ends */
+    /* developer story */
+    .developer-story {
+        background-size: contain;
+    }
+    .developer-story .story-content {
+        background-color: antiquewhite;
+        color: rgb(63, 63, 63);
+        font-weight: bolder;
+        padding-top: 25px;
+        width: 94vw;
+        left: 0;
+        top: 375px;
+        /* box-sizing: border-box; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .developer-story .story-content .story-content-main {
+        font-size: 18px;
+        font-weight: 300;
+    }
+    /* developer story ends */
+    /* azure-info starts */
+    .azure-info {
+        flex-direction: column;
+    }
+    .azure-info .info-box {
+        width: 95%;
+        height: 200px;
+        margin-bottom: 25px;
+    }
+    /* azure-info ends */
+    /* footer starts */
+    footer .sections-2 {
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    /* footer ends */
+}

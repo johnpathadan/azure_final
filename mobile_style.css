@@ -1,0 +1,244 @@
+@media screen and (max-width: 550px) {
+    header .navigation .mobile-invisible {
+        display: none;
+    }
+    header .navigation {
+        margin-right: 50px;
+    }
+    header .navigation #nav-logo {
+        position: relative;
+        left: 150px;
+    }
+    header .small-screen-visible {
+        visibility: visible;
+        cursor: pointer;
+    }
+    header .icon-visible {
+        color: rgb(104, 102, 102);
+        margin-right: 15px;
+        width: 15px;
+        visibility: visible;
+    }
+    header .icon-visible:hover {
+        cursor: pointer;
+    }
+    .covid {
+        height: 60px;
+        font-size: 12px;
+        font-weight: bolder;
+    }
+    .showcase {
+        background-size: cover;
+        /* background-position-x: 25px; */
+    }
+    .showcase h1 {
+        font-size: 32px;
+    }
+    .showcase button {
+        width: 80vw;
+    }
+    .showcase button:hover {
+        text-decoration: underline;
+    }
+    /* feature starts */
+    .features {
+        height: 1000px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .feature-columns {
+        flex-direction: column;
+    }
+    .feature-columns .feature-options {
+        margin-left: 40px;
+    }
+    .feature-columns .feature-options .not-popular {
+        display: none;
+    }
+    .feature-containers {
+        width: 40vw;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .features .feature-columns .feature-image img {
+        display: none;
+    }
+    .features .feature-containers .box-item {
+        height: 225px;
+    }
+    /* feature ends */
+    .customer-feedback h2 {
+        font-size: 20px;
+        margin: 20px;
+    }
+    .customer-feedback .brand-logos .mobile-none {
+        display: none;
+    }
+    .customer-feedback .brand-logos {
+        margin-top: 2px;
+        margin-bottom: 85px;
+    }
+    .customer-feedback .brand-logos #nba {
+        margin-top: 18px;
+        margin-bottom: 18px;
+        height: 50px;
+    }
+    .customer-feedback .nba-feedback {
+        margin-top: 50px;
+        background-size: auto;
+        height: 250px;
+    }
+    .customer-feedback .nba-feedback .feedback-text #feedback-text {
+        height: 35vh;
+    }
+    .customer-feedback .nba-feedback .feedback-text #feedback-text-info {
+        font-size: 8px !important;
+        padding-left: -20px;
+    }
+    .customer-feedback .nba-feedback .feedback-text #feedback-text-link {
+        color: black;
+        font-size: 12px;
+    }
+    .more-info h2 {
+        font-size: 20px;
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+    .more-info {
+        margin: 10px 10px;
+    }
+    .more-info .more-info-divs {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    .more-info-divs .more-info-div-left {
+        width: 80vw;
+        height: 150px;
+        margin: 2px;
+    }
+    .more-info-divs .more-info-div-left h3 {
+        font-size: 16px;
+    }
+    .more-info-divs .more-info-div-left p {
+        font-size: 14px;
+    }
+    .more-info-divs .more-info-div-right {
+        width: 90%;
+    }
+    .more-info-div-right .right-image {
+        display: none;
+    }
+    /* .more-info-divs .more-info-div-right {
+        height: 120px;
+        justify-content: space-evenly;
+    }
+    .more-info-div-right .more-info-div-right-top {
+        height: 40px;
+    }
+    .more-info-div-right .more-info-div-right-bottom {
+        height: 40px;
+    } */
+    .more-info-div-right p {
+        display: none;
+        font-size: 1px;
+    }
+    .more-info-div-right h3 {
+        margin-top: 30px;
+    }
+    .more-info-div-right h3:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .new-to-azure {
+        flex-direction: column;
+        margin-left: 25px;
+        margin-bottom: 40px;
+        width: 85%;
+    }
+    .migration {
+        flex-direction: column;
+        margin: 10px;
+    }
+    .migration #migration-image {
+        width: 50%;
+    }
+    .migration-text {
+        margin-top: 25px;
+        text-align: center;
+    }
+    .new-to-azure p {
+        text-align: center;
+        padding-left: 25px;
+        margin-left: 6px;
+        box-sizing: border-box;
+    }
+    /* discovery */
+    .azure-discovery .discover-grid {
+        height: 1000px;
+        /* border: 1px solid black; */
+        display: grid;
+        grid-template-areas: "one two" "three three" "four six" "five five";
+        box-sizing: border-box;
+        row-gap: 25px;
+    }
+    .item {
+        height: 250px;
+    }
+    /* discovery ends */
+    /* developer story */
+    .developer-story {
+        margin-top: 250px;
+        /* margin-bottom: 150px; */
+        /* border: 2px solid black; */
+        height: 390px;
+        background-size: cover;
+        /* width: 100vw; */
+        overflow: hidden;
+    }
+    .developer-story .story-content {
+        background-color: antiquewhite;
+        color: rgb(63, 63, 63);
+        font-weight: bolder;
+        padding-top: 25px;
+        width: 100vw;
+        left: 0;
+        top: 404px;
+        /* box-sizing: border-box; */
+        margin-top: -200px;
+        /* border: 2px solid black; */
+    }
+    .developer-story .story-content .story-content-main {
+        font-size: 13px !important;
+        font-weight: bold;
+        margin-right: 15px;
+        width: 100%;
+    }
+    .developer-story-options p {
+        font-size: 12px;
+    }
+    /* developer story ends */
+    /* azure info */
+    .azure-info .info-box-content p {
+        display: none;
+    }
+    .azure-info .info-box {
+        height: 80px;
+    }
+    /* azure info ends */
+    footer {
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    footer .sections-2 {
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    footer .sections-2 .section-two-right li {
+        font-size: 10px;
+    }
+}
