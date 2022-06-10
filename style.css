@@ -28,7 +28,8 @@ header .awesome-icons {
     align-items: center;
 }
 
-header .icon-visible {
+header .icon-visible,
+header .icon-visible-right {
     color: rgb(104, 102, 102);
     margin-right: 2px;
     width: 1px;
