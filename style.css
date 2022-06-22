@@ -201,12 +201,17 @@ header .small-screen-visible {
     font-size: 16px;
 }
 
-.more-info-div-left p:hover {
+.more-info-div-left:hover p {
     cursor: pointer;
     text-decoration: underline;
 }
 
-.more-info-div-right p:hover {
+.more-info-div-right-top:hover p {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.more-info-div-right-bottom:hover p {
     cursor: pointer;
     text-decoration: underline;
 }
