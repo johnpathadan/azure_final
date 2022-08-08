@@ -40,7 +40,6 @@
     }
     .more-info-divs .more-info-div-right {
         height: 450px;
-        /* border: 1px solid black; */
         display: flex;
         flex-direction: column;
         justify-content: space-between;
